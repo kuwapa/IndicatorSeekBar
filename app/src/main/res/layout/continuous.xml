@@ -178,6 +178,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isb_progress="34"
+                app:isb_show_tick_texts="true"
+                app:isb_max="100"
+                app:isb_min="0"
+                app:isb_ticks_count="2"
+                app:isb_tick_marks_size="7dp"
+                app:isb_show_tick_marks_type="oval"
                 app:isb_show_indicator="circular_bubble"
                 app:isb_thumb_drawable="@drawable/selector_thumb_ripple_drawable"
                 app:isb_thumb_size="26dp" />
